@@ -1,0 +1,151 @@
+/*body{
+	overflow-y:hidden;
+}*/
+/*搜索框*/
+#market_ssk{
+	width: 100%;
+	height: 1.5rem;
+	text-align: center;
+	line-height: 1.5rem;
+}
+#market_ssk input{
+	width: 9.262rem;
+	height: 1rem;
+	border: 1px solid #D9D9D9;
+	border-radius: 0.225rem;
+	text-align: center;
+	line-height: 1.0625rem;
+	background: #D9D9D9;
+}
+#market_ssk img{
+	width: 2.5rem;
+	height: 0.625rem;
+	position: relative;
+	top: -1.25rem;
+	
+}
+/*中间内容*/
+#supermarket_zong{
+	width:100%;
+}
+/*标题*/
+#supermarket_daohang{
+	display:flex;
+	justify-content:space-between;
+}
+.supermarket_dh1{
+/*	overflow-y:auto;*/
+	height:18.391rem;
+	width:2.391rem;
+}
+.supermarket_dhbt{
+	width:2.391rem;
+	height:18.391rem;
+	list-style:none;
+	border-bottom:0.016rem solid #dedede;
+}
+.supermarket_dhbt li{
+	width:2.391rem;
+	height:1.391rem;
+	border-bottom:0.016rem solid #dedede;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	
+}
+.supermarket_rx{
+	width:2.391rem;
+	height:1.188rem;
+	text-align:center;
+	line-height:1.188rem;
+	border-left:0.156rem solid #fcd800;
+}
+
+/*内容*/
+.supermarket_nr1{
+	width:7.25rem;
+	/*overflow-y:auto;*/
+}
+.supermarket_ul{
+	width:7.25rem;
+	list-style:none;
+	/*overflow-y:auto;*/
+}
+.supermarket_ul li{
+	width:6.95rem;
+	height:3.013rem;
+	padding:0.156rem;
+	border-bottom:0.016rem solid #dedede;
+}
+.supermarket_nrbt{
+	width:100%;
+	height:1.391rem;
+	line-height:1.391rem;
+	text-align:center;
+	border-bottom:0.016rem solid #dedede;
+	overflow:hidden;
+	/*position:fixed;*/
+	background:white;
+}
+.supermarket_nrbt .supermarket_qb{
+	width:37%;
+	height:1.391rem;
+	float:left;
+	border-bottom:0.016rem solid #dedede;
+}
+.supermarket_qb img{
+	width:0.5rem;
+	height:0.5rem;
+}
+
+/*右侧图片*/
+.supermarket_tp{
+	width:3.013rem;
+	height:3.013rem;
+	float:left;
+}
+.supermarket_tp img{
+	width:3.013rem;
+	height:3.013rem;
+}
+.supermarket_wz h3{
+	margin-top:0.338rem;
+}
+.supermarket_wz .supermarket_jx{
+	width:0.881rem;
+	height:0.438rem;
+	border:1px solid red;
+	text-align:center;
+	color:red;
+	border-radius:5px;
+	display:inline-block;
+	margin-top:0.208rem;
+}
+.supermarket_wz .supermarket_qg{
+	color:#999999;
+	margin-top:0.208rem;
+}
+.supermarket_wz .supermarket_yhj{
+	color:#fa4600;
+	margin-top:0.208rem;
+	display:inline-block;
+	font-size:0.484rem;
+}
+.supermarket_wz .supermarket_yj{
+	color:#999999;
+	text-decoration:line-through;
+}
+.supermarket_wz .imgjia{
+	width:0.9rem;
+	height:0.9rem;
+	border:1px solid #999999;
+	border-radius:50%;
+	display: inline-block;
+	text-align:center;
+	line-height:0.9rem;
+	font-size:0.891rem;
+	font-family:"微软雅黑";
+	font-weight:bold;
+	vertical-align:top;
+	color:red;
+}
